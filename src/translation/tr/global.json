@@ -1,0 +1,471 @@
+{
+    "header":{
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "departments": "Departmanlar",
+        "adminDashboard": "Yönetici Paneli",
+        "types": "Türler",
+        "type": {
+            "companyTypes": "Şirket Türleri",
+            "departmentTypes": "Departman Türleri"
+        },
+        "managerDashboard": "Müdür Paneli",
+        "department": "Departman",
+        "company": "Şirket",
+        "blog": "Blog",
+        "signOut": "Çıkış Yap",
+        "signIn": "Giriş Yap",
+        "firstLang": "İngilizce",
+        "secondLang": "Türkçe",
+        "Executive Board": "İcra Komitesi",
+        "Software Development": "Yazılım Geliştirme",
+        "Human Resources": "İnsan Kaynakları",
+        "Finance": "Finans",
+        "Management": "Yönetim",
+        "Sales & Marketing": "Satış ve Pazarlama",
+        "Logistics": "Lojistik",
+        "IT Support": "BT Desteği",
+        "Senior Partners": "Kıdemli Ortaklar",
+        "Financial Consulting": "Finansal Danışmanlık",
+        "IT Strategy": "BT Stratejisi",
+        "Production": "Üretim",
+        "R&D": "Ar-Ge",
+        "Quality Assurance": "Kalite Güvencesi",
+        "Investment Banking": "Yatırım Bankacılığı",
+        "Internal Audit": "İç Denetim",
+        "Legal Department": "Hukuk Departmanı",
+        "Mobile Development": "Mobil Geliştirme",
+        "Web Development": "Web Geliştirme",
+        "Data Science": "Veri Bilimi",
+        "Yazılım Geliştirme": "Yazılım Geliştirme"
+    }
+    ,
+    "forms":{
+        "signIn": {
+            "title": "GİRİŞ YAP",
+            "email": "E-mail",
+            "password": "Şifre",
+            "rememberMe": "Beni Hatırla",
+            "button": "Giriş Yap",
+            "forgotPassword": "Şifremi Unuttum?",
+            "activateAccount": "Hesabı Aktifleştir",
+            "message": {
+                "error": "Geçersiz e-posta veya şifre. Lütfen tekrar deneyin.",
+                "success": "Giriş başarılı."
+            }
+        },
+        "activateAccount": {
+            "title": "HESABI AKTİFLEŞTİR",
+            "email": "E-mail",
+            "buttonMail": "Aktivasyon Maili Gönder",
+            "back": "Giriş Yapmaya Geri Dön",
+            "buttonPassword": "Hesabı Aktifleştir"
+        },
+        "resetPassword": {
+            "title": "ŞİFREYİ SIFIRLA",
+            "newPassword": "Yeni Şifre",
+            "confirmPassword": "Şifreyi Onayla",
+            "button": "Şifreyi Sıfırla"
+        },
+        "forgotPassword": {
+            "title": "ŞİFREMİ UNUTTUM",
+            "email": "E-mail",
+            "button": "Şifre Sıfırlama Maili Gönder",
+            "back": "Giriş Yapmaya Geri Dön"
+        }
+
+    },
+    "dashboard": {
+        "title": "Personeller",
+        "searchPlaceholder": "Kullanıcıları Ara...",
+        "no": "İd",
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-mail",
+        "department": "Departman",
+        "role": "Rol",
+        "company": "Şirket",
+        "activation": "Aktivasyon",
+        "actions": "İşlemler",
+        "departments": {
+            "Executive Board": "İcra Komitesi",
+            "Software Development": "Yazılım Geliştirme",
+            "Human Resources": "İnsan Kaynakları",
+            "Finance": "Finans",
+            "Management": "Yönetim",
+            "Sales & Marketing": "Satış ve Pazarlama",
+            "Logistics": "Lojistik",
+            "IT Support": "BT Desteği",
+            "Senior Partners": "Kıdemli Ortaklar",
+            "Financial Consulting": "Finansal Danışmanlık",
+            "IT Strategy": "BT Stratejisi",
+            "Production": "Üretim",
+            "R&D": "Ar-Ge",
+            "Quality Assurance": "Kalite Güvencesi",
+            "Investment Banking": "Yatırım Bankacılığı",
+            "Internal Audit": "İç Denetim",
+            "Legal Department": "Hukuk Departmanı",
+            "Mobile Development": "Mobil Geliştirme",
+            "Web Development": "Web Geliştirme",
+            "Data Science": "Veri Bilimi",
+            "Yazılım Geliştirme": "Yazılım Geliştirme"
+        },
+        "roles": {
+            "ADMIN": "Yönetici",
+            "MANAGER": "Müdür",
+            "USER": "Personel"
+        },
+        "activations": {
+            "active": "Aktif",
+            "inactive": "Pasif"
+        },
+        "show": {
+            "first": "Gösteriliyor: ",
+            "second": "sonuçtan",
+            "third": "tanesi"
+        },
+        "filter": {
+            "department": "Departman",
+            "role": "Rol",
+            "company": "Şirket",
+            "activity": "Aktiflik",
+            "region": "Bölge",
+            "city": "Şehir",
+            "buttonReset": "Filtreleri Sıfırla",
+            "buttonApply": "Filtreleri Uygula",
+            "town": "İlçe"
+        },
+        "numData": "Veri Sayısı",
+        "button": "Personel Ekle",
+        "message": {
+            "user":{
+                "deleteSuccess": "Kullanıcı başarıyla silindi.",
+                "deleteError": "Kullanıcı silinirken bir hata oluştu."
+            },
+            "company": {
+                "success": "Şirket başarıyla silindi.",
+                "error": "Şirket silinirken bir hata oluştu."
+            }
+        }
+
+    },
+    "footer": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "privacy": "Gizlilik Politikası",
+        "title": "Bize Ulaşın",
+        "reserved": "© 2023 Delta. Tüm hakları saklıdır."
+    },
+    "company": {
+        "title": "Şirket Bilgileri",
+        "titleCreate": "Şirket Oluştur",
+        "name": "İsim",
+        "shortName": "Kısa İsim",
+        "address": "Adres",
+        "town": "İlçe",
+        "region": "Bölge",
+        "type": "Tür",
+        "activation": "Aktivasyon",
+        "city": "Şehir",
+        "updateCompany": "Şirketi Güncelle",
+        "editCompany": "Şirketi Düzenle",
+        "message": {
+            "successUpdate": "Şirket başarıyla güncellendi.",
+            "errorUpdate": "Şirket güncellenirken bir hata oluştu.",
+            "successCreate": "Şirket başarıyla oluşturuldu.",
+            "errorCreate": "Şirket oluşturulurken bir hata oluştu."
+        },
+        "createCompany": "Şirket Oluştur",
+        "activations": {
+            "active": "Aktif",
+            "inactive": "Pasif"
+        }
+    },
+    "createUser": {
+        "title": "KULLANICI OLUŞTUR",
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-mail",
+        "department": "Departman",
+        "role": "Rol",
+        "selectDepartment": "Departman Seç",
+        "selectRole": "Rol Seç",
+        "button": "Kullanıcı Oluştur",
+        "message": {
+            "success": "Kullanıcı başarıyla oluşturuldu.",
+            "error": "Kullanıcı oluşturulurken bir hata oluştu."
+        }
+    },
+    "department": {
+        "title": "Departman Bilgileri",
+        "titleCreate": "Departman Oluştur",
+        "name": "İsim",
+        "town": "İlçe",
+        "region": "Bölge",
+        "city": "Şehir",
+        "address": "Adres",
+        "updateButton": "Departmanı Güncelle",
+        "editButton": "Departmanı Düzenle",
+        "createButton": "Departman Oluştur",
+        "company": "Şirket",
+        "type": "Tür",
+        "message": {
+            "successUpdate": "Departman başarıyla güncellendi.",
+            "errorUpdate": "Departman güncellenirken bir hata oluştu.",
+            "successCreate": "Departman başarıyla oluşturuldu.",
+            "errorCreate": "Departman oluşturulurken bir hata oluştu.",
+            "successDelete": "Departman başarıyla silindi.",
+            "errorDelete": "Departman silinirken bir hata oluştu."
+        }
+    },
+    "home": {
+        "sliders": {
+            "1": {
+                "title": "Şirketinizin yönetimi Delta ile çok daha kolay",
+                "description": "Delta, iş operasyonlarınızı kolaylaştırmak için tasarlanmış kapsamlı bir platformdur."
+            },
+            "2": {
+                "title": "Departmanları değişen çalışanlarınızın bilgilerini güncelleyin",
+                "description": "Delta, çalışan rolleri ve departmanlarını kolayca yönetmenizi sağlar ve sorunsuz geçişler sağlar."
+            },
+            "3": {
+                "title": "Şirket arşivleriniz artık güvende",
+                "description": "Delta, şirket arşivleriniz için güvenli depolama sağlar ve değerli verilerinizi korur."
+            }
+        },
+        "cards": {
+            "1": {
+                "title": "Şirketler",
+                "description": "Delta'nın şirket yönetim sistemi ile şirketlerinizi verimli bir şekilde yönetin. Şirket bilgilerini zahmetsizce kurun ve sürdürün. İş yapınızı kolayca organize edin. Delta ile şirket bilgilerini oluşturabilir, güncelleyebilir ve yönetebilirsiniz.",
+                "slug": "sirketler"
+            },
+            "2": {
+                "title": "Departmanlar",
+                "description": "Departmanları ve bunların detaylarını kuruluşunuz içinde kolayca yönetin. Delta, departman bilgilerini oluşturmanıza, güncellemenize ve sürdürmenize olanak tanır. Takımlarınızı organize edin ve kullanıcı dostu arayüzümüzle operasyonları kolaylaştırın.",
+                "slug": "departmanlar"
+            },
+            "3": {
+                "title": "Şehirler",
+                "description": "Şehirlerinizin bilgilerini ve güncellemelerini sorunsuz bir şekilde takip edin. Delta, şehir hesaplarını, rollerini ve izinlerini yönetmeyi basitleştiren kapsamlı bir şehir yönetim sistemi sunar. İş gücünüzü verimli bir şekilde organize edin ve sezgisel şehir yönetim özelliklerimizle sorunsuz operasyonlar sağlayın.",
+                "slug": "sehirler"
+            },
+            "button": "Daha Fazla Bilgi"
+        }
+    },
+    "profile": {
+        "title": "Profil Bilgileri",
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-mail",
+        "department": "Departman",
+        "role": "Rol",
+        "buttonUpdate": "Profili Güncelle",
+        "buttonEdit": "Profili Düzenle",
+        "buttonLogout": "Çıkış Yap",
+        "selectDepartment": "Departman Seç",
+        "selectRole": "Rol Seç",
+        "message": {
+            "success": "Profil başarıyla güncellendi.",
+            "error": "Profil güncellenirken bir hata oluştu."
+        }
+    },
+    "updateUser": {
+        "actions": {
+            "1": "Kişisel Bilgiler",
+            "2": "İş Bilgileri",
+            "3": "Şirket Bilgileri"
+        },
+        "tabs": {
+            "personal": {
+                "firstname": "İsim",
+                "surname": "Soyisim",
+                "username": "Kullanıcı Adı",
+                "email": "E-mail",
+                "activation": "Aktivasyon"
+            },
+            "work": {
+                "department": "Departman",
+                "role": "Rol"
+            },
+            "company": {
+                "name": "Şirket Adı",
+                "shortName": "Kısa Adı",
+                "town": "İlçe",
+                "region": "Bölge",
+                "city": "Şehir"
+            }
+        },
+        "button_edit": "Bilgileri Düzenle",
+        "button_update": "Kullanıcıyı Güncelle",
+        "message": {
+            "success": "Kullanıcı başarıyla güncellendi.",
+            "error": "Kullanıcı güncellenirken bir hata oluştu."
+        }
+
+    },
+        "departments": {
+            "title": "Departmanlar",
+            "headers": {
+                "no": "İd",
+                "name": "İsim",
+                "company": "Şirket",
+                "address": "Adres",
+                "activation": "Aktivasyon",
+                "town": "İlçe",
+                "city": "Şehir",
+                "region": "Bölge",
+                "actions": "İşlemler"
+            },
+            "searchPlaceholder": "Departmanları Ara",
+            "button": "Departman Ekle",
+            "types": {
+                "Executive Board": "İcra Komitesi",
+                "Software Development": "Yazılım Geliştirme",
+                "Human Resources": "İnsan Kaynakları",
+                "Finance": "Finans",
+                "Management": "Yönetim",
+                "Sales & Marketing": "Satış ve Pazarlama",
+                "Logistics": "Lojistik",
+                "IT Support": "BT Destek",
+                "Senior Partners": "Kıdemli Ortaklar",
+                "Financial Consulting": "Finansal Danışmanlık",
+                "IT Strategy": "BT Stratejisi",
+                "Production": "Üretim",
+                "R&D": "Ar-Ge",
+                "Quality Assurance": "Kalite Güvencesi",
+                "Investment Banking": "Yatırım Bankacılığı",
+                "Internal Audit": "İç Denetim",
+                "Legal Department": "Hukuk Departmanı",
+                "Mobile Development": "Mobil Geliştirme",
+                "Web Development": "Web Geliştirme",
+                "Data Science": "Veri Bilimi",
+                "Yazılım Geliştirme": "Yazılım Geliştirme"
+
+            },
+            "activations": {
+                "active": "Aktif",
+                "inactive": "Pasif"
+            }
+        },
+        "companies": {
+            "title": "Şirketler",
+            "headers": {
+                "no": "İd",
+                "name": "İsim",
+                "shortName": "Kısa Adı",
+                "address": "Adres",
+                "activation": "Aktivasyon",
+                "town": "İlçe",
+                "city": "Şehir",
+                "region": "Bölge",
+                "actions": "İşlemler"
+            },
+            "searchPlaceholder": "Şirketleri Ara",
+            "button": "Şirket Ekle",
+            "activations": {
+                "active": "Aktif",
+                "inactive": "Pasif"
+            }
+        },
+        "cities": {
+            "titleCity": "Şehirler",
+            "titleRegion": "Bölgeler",
+            "titleTown": "İlçeler",
+            "headers": {
+                "no": "İd",
+                "name": "İsim",
+                "actions": "İşlemler",
+                "locations": "Konumlar"
+            },
+            "searchPlaceholder": "Şehirleri Ara",
+            
+            "button": "Şehir Ekle",
+            "buttonRegion": "Bölge Ekle",
+            "buttonTown": "İlçe Ekle",
+            "activations": {
+                "active": "Aktif",
+                "inactive": "Pasif"
+            },
+            "locations":{
+                "town": "İlçeler",
+                "region": "Bölgeler"
+
+            },
+            "createForms": {
+                "elementName": "İsim",
+                "elementNamePlaceholder": "İsmi girin",
+                "buttonElement": "Ekle",
+                "buttonUpdateElement": "Güncelle",
+                "regionName": "Bölge Adı",
+                "regionNamePlaceholder": "Bölge adını girin",
+                "buttonRegion": "Bölge Ekle",
+                "townName": "İlçe Adı",
+                "townNamePlaceholder": "İlçe adını girin",
+                "buttonTown": "İlçe Ekle",
+                "buttonUpdateRegion": "Bölgeyi Güncelle",
+                "buttonUpdateTown": "İlçeyi Güncelle",
+                "cityCreated": "Şehir başarıyla oluşturuldu",
+                "regionCreated": "Bölge başarıyla oluşturuldu",
+                "townCreated": "İlçe başarıyla oluşturuldu",
+                "regionCreationFailed": "Bölge oluşturma başarısız oldu",
+                "townCreationFailed": "İlçe oluşturma başarısız oldu",
+                "cityCreationFailed": "Şehir ekleme başarısız oldu",
+                "regionUpdateFailed": "Bölge güncelleme başarısız oldu",
+                "townUpdateFailed": "İlçe güncelleme başarısız oldu",
+                "cityUpdateFailed": "Şehir güncelleme başarısız oldu",
+                "cityUpdated": "Şehir başarıyla güncellendi",
+                
+                "regionUpdated": "Bölge başarıyla güncellendi",
+                "townUpdated": "İlçe başarıyla güncellendi",
+                "cityDeleted": "Şehir başarıyla silindi",
+                "cityDeletionFailed": "Şehir silme başarısız oldu",
+                "regionDeleted": "Bölge başarıyla silindi",
+                "regionDeletionFailed": "Bölge silme başarısız oldu",
+                "townDeleted": "İlçe başarıyla silindi",
+                "townDeletionFailed": "İlçe silme başarısız oldu"
+            }
+        
+
+        },
+        "departmentTypes": {
+            "title": "Departman Türleri",
+            "headers": {
+                "no": "İd",
+                "name": "İsim",
+                "actions": "İşlemler"
+            },
+            "searchPlaceholder": "Departman Türlerini Ara",
+            "button": "Departman Türü Ekle",
+            "message": {
+                "successCreate": "Departman türü başarıyla oluşturuldu.",
+                "errorCreate": "Departman türü oluşturulurken bir hata oluştu.",
+                "successUpdate": "Departman türü başarıyla güncellendi.",
+                "errorUpdate": "Departman türü güncellenirken bir hata oluştu.",
+                "successDelete": "Departman türü başarıyla silindi.",
+                "errorDelete": "Departman türü silinirken bir hata oluştu."
+            }
+        },
+        "companyTypes": {
+            "title": "Şirket Türleri",
+            "headers": {
+                "no": "İd",
+                "name": "İsim",
+                "actions": "İşlemler"
+            },
+            "searchPlaceholder": "Şirket Türlerini Ara",
+            "button": "Şirket Türü Ekle",
+            "message": {
+                "successCreate": "Şirket türü başarıyla oluşturuldu.",
+                "errorCreate": "Şirket türü oluşturulurken bir hata oluştu.",
+                "successUpdate": "Şirket türü başarıyla güncellendi.",
+                "errorUpdate": "Şirket türü güncellenirken bir hata oluştu.",
+                "successDelete": "Şirket türü başarıyla silindi.",
+                "errorDelete": "Şirket türü silinirken bir hata oluştu."
+            }
+        }
+
+        
+
+}

@@ -1,0 +1,648 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 2px solid #0e0e0e;
+    background: linear-gradient(45deg, black, #000085);
+    color: white;
+    border: 2px solid;
+}
+
+th,
+td {
+    padding: 12px 5px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    border-right: 1px solid #ddd;
+
+}
+
+tr {
+    border-bottom: 2px solid white !important;
+    border-collapse: collapse;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+
+
+th {
+
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+}
+
+th svg {
+    margin-left: 2px;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 35px;
+    color: black;
+
+}
+
+.pagination li:first-child a,
+.pagination li:last-child a {
+    color: black !important;
+    background: none;
+}
+
+.pagination li:first-child a:hover,
+.pagination li:last-child a:hover {
+    color: #0505a7;
+    transition: 0.3s;
+}
+
+.pagination li a {
+    background: linear-gradient(45deg, #000085, black);
+    padding: 10px;
+    color: white !important;
+}
+
+.pagination .active a {
+    padding: 15px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+td:last-child {
+    display: flex;
+    gap: 10px;
+    font-size: 23px;
+    justify-content: center;
+    ;
+}
+
+td:last-child button {
+    background: transparent;
+    border: none;
+    color: white;
+
+}
+
+tr:hover td:last-child button {
+    color: #000000;
+}
+
+td:last-child button:hover {
+    color: #e61515 !important;
+    transition: 0.3s;
+}
+
+.table-scrolltr:last-child {
+    background: linear-gradient(45deg, black, #000085);
+    color: white;
+
+}
+
+.add-user-button button,
+.filter-inputs button {
+    background-color: #0c6294;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.add-user-button button:hover,
+.filter-inputs button:hover {
+    background-color: #1991d6;
+    transition: 0.3s;
+}
+
+.add-user-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-top: 5px;
+
+}
+
+.number-of-items input {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.users-container tr:last-child td:nth-child(3) {
+    width: 74%;
+    padding: 0;
+    margin: 10px;
+}
+
+.users-container {
+    margin-top: 15px;
+    height: auto;
+
+}
+
+
+.filters {
+    width: 100%;
+    margin-top: 10px;
+    background: linear-gradient(45deg, black, #000085);
+    height: auto;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.filter-icon {
+    font-size: 35px;
+    color: rgb(0, 100, 146);
+}
+
+.filter-icon:hover {
+    color: rgb(19, 132, 207);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.filter-inputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 40px;
+}
+
+.filter-inputs select {
+    width: 45%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.filter-inputs select option {
+    color: white;
+    background-color: #0b015f;
+}
+
+
+.filter-inputs button {
+    width: 15%;
+}
+
+.table-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, black, #000085);
+    align-items: center;
+}
+
+.table-title h1 {
+    margin: 0;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    width: 25%;
+    height: 80%;
+    gap: 5px;
+    border-bottom: 2px solid white;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    justify-content: space-around;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0;
+    width: 70%;
+
+}
+
+.search-bar svg {
+    font-size: 20px;
+    ;
+}
+
+
+.filter-message {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.table-scroll {
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 140px;
+}
+
+.cities-container {
+    width: 60%;
+    padding: 39px;
+    background: linear-gradient(45deg, black, transparent);
+    position: relative;
+    left: 20%;
+    margin-top: 25px;
+}
+
+
+.location {
+    background-color: #0c6294;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    margin: 0px 5px;
+
+}
+
+.location:hover {
+    background-color: #1991d6;
+    transition: 0.3s;
+}
+
+.cities-container .header {
+    width: auto;
+}
+
+.regions-table,
+.region-title {
+
+    background: linear-gradient(45deg, black, rgb(0, 255, 136));
+}
+
+.region-title h1 {
+    margin: 0;
+    padding: 5px;
+
+
+}
+
+.regions {
+    padding: 0;
+    color: white;
+}
+
+
+.towns {
+    padding: 0;
+    color: white;
+}
+
+.towns-table {
+    background: linear-gradient(45deg, black, rgb(255, 123, 0));
+    width: 100%;
+    border: none;
+}
+
+.town-title {
+    background: linear-gradient(45deg, black, rgb(255, 123, 0));
+}
+
+.town-title h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+.regions tr:hover {
+    background-color: #00ff88;
+    color: #000000;
+}
+
+.regions:hover td:last-child button {
+    color: white;
+}
+
+.towns:hover td:last-child button {
+    color: white !important;
+}
+
+
+.regions tr:hover td:last-child button {
+    color: #000000;
+}
+
+.towns tr:hover td:last-child button {
+    color: #000000 !important;
+}
+
+.towns td:last-child button:hover {
+    color: red !important;
+}
+
+
+
+.towns tr:hover {
+    background-color: #e0720c;
+    color: #000000;
+}
+
+
+
+
+
+
+.actions-header {
+    width: 0;
+}
+
+.add-region-button {
+    background: linear-gradient(45deg, black, rgb(0, 255, 136));
+}
+
+.add-region-button button {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgb(0, 173, 0);
+    color: white;
+}
+
+.add-region-button button:hover {
+    background-color: #00ff88;
+    transition: 0.3s;
+
+}
+
+.add-town-button {
+    background: linear-gradient(45deg, black, rgb(255, 123, 0));
+}
+
+.add-town-button button {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+.add-town-button button:hover {
+    background-color: #ffa631;
+    transition: 0.3s;
+}
+
+.table-footer {
+    background: linear-gradient(45deg, black, #000085);
+}
+
+.table-footer:hover {
+    color: white;
+}
+
+.create-city-form {
+    background: linear-gradient(45deg, black, #005cd4);
+    position: relative;
+    left: 27%;
+    top: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.create-city-form div:nth-child(2) {
+    display: flex;
+    gap: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-city-form button {
+    background-color: #0c6294;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white !important;
+    margin-top: 15px;
+    width: 50%;
+
+}
+
+.create-city-form button:hover {
+    background-color: #1991d6;
+    transition: 0.3s;
+}
+
+.create-city-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.close {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    color: white;
+}
+
+.message {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: rgb(13, 94, 13);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.add-region-form {
+    background: linear-gradient(45deg, black, green);
+    padding: 2px 0 25px 0;
+    color: white;
+
+    
+
+}
+
+.add-region-form input, .add-town-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 10px;
+}
+.add-region-form button {
+    background-color: #036b11;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white !important;
+    margin-top: 15px;
+}
+.add-region-form button:hover {
+    background-color: #07df3d;
+    transition: 0.3s;
+}
+
+.add-town-form {
+    background: linear-gradient(45deg, black, #ad4e00);
+    color: white;
+    padding: 2px 0 25px 0;
+}
+.add-town-form button {
+    background-color: #ad4e00;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white !important;
+    margin-top: 15px;
+}
+.add-town-form button:hover {
+    background-color: #ffa631;
+    transition: 0.3s;
+}
+.deleted {
+    background-color: #333232;
+}
+
+button:disabled {
+    color: #888;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+button:disabled:hover {
+    color: #888 ;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:509px) {
+    .add-user-button {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1029px) and (min-width:900px) {
+
+
+    .search-bar {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:720px) {
+
+
+    .search-bar {
+        width: 40%;
+    }
+
+    .filter-inputs button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .search-bar {
+        width: 50%;
+    }
+
+    .filter-inputs:last-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .filter-inputs button {
+        width: 55%;
+        margin-top: 10px;
+    }
+
+    .filter-inputs select {
+        font-size: 12px;
+
+
+
+    }
+}
+
+@media screen and (max-width:1100px) and (min-width:720px) {
+    .cities-container {
+        width: 80%;
+        left: 15%;
+    }
+
+}
+
+@media screen and (max-width:720px) and (min-width:595px) {
+    .cities-container {
+        width: 95%;
+        left: 2.5%;
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media screen and (max-width:594px) {
+    .cities-container {
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+
+    .cities-container .header {
+        width: 100px;
+    }
+
+    .cities-container .search-bar {
+        font-size: 12px;
+    }
+
+
+
+}

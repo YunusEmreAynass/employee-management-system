@@ -1,0 +1,100 @@
+.create-user-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: linear-gradient(45deg, black, blue);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.create-user-form div,
+.create-user-form button {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.create-user-form label {
+    font-weight: bold;
+    width: 40%;
+}
+
+.create-user-form input,
+.create-user-form select {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.container {
+    height: auto;
+    margin-top: 80px;
+    padding: 40px 0;
+    width: 70%;
+    background: linear-gradient(45deg, black, #000085);
+    border-radius: 10px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #000085, rgb(17, 14, 14));
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.create-user-form button {
+    background: linear-gradient(45deg, #000085, black);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-user-form button:hover {
+    background: linear-gradient(45deg, #000085, #fbfbff);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:1346px) and (min-width: 1000px) {
+    .create-user-form {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 883px) {
+    .create-user-form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    .create-user-form {
+        width: 95%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .create-user-form div,
+    .create-user-form button {
+        width: 80%;
+        flex-direction: column;
+    }
+
+}

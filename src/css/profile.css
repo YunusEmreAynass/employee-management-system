@@ -1,0 +1,157 @@
+.profile-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(45deg, black, #2db9d9);
+    width: 50%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    padding: 40px;
+}
+
+.profile-container h1 {
+    letter-spacing: 3px;
+    margin: 0;
+    ;
+}
+
+.profile-details {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-details div {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile-details label {
+    font-weight: bold;
+    width: 30%;
+}
+
+.profile-details input,select {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
+    border-radius: 0;
+    caret-color: white;
+}
+.profile-details select option{
+   background-color: #0f90ad;
+}
+
+.profile-actions {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.profile-actions button {
+    padding: 5px 20px;
+    background-color: rgb(15, 119, 133);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.profile-actions button:hover {
+    background-color: #1991d6;
+    transition: 0.8s;
+}
+
+@media screen and (max-width:1350px) and (min-width:1180px) {
+    .profile-details{
+        width:80%;
+    }
+
+
+
+}
+@media screen and (max-width:1180px) and (min-width:1000px) {
+    .profile-container {
+        width: 70%;
+    }
+    .profile-details {
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:1000px)  and (min-width:800px) {
+    .profile-container {
+        width: 80%;
+    }
+    .profile-details {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:800px)  and (min-width:600px) {
+    .profile-container {
+        width: 90%;
+    }
+    .profile-details {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:600px)  and (min-width:535px) {
+    .profile-container {
+        width: 95%;
+    }
+    .profile-details {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:535px)  and (min-width:449px) {
+    .profile-container {
+        width: 95%;
+        padding: 20px;
+    }
+    .profile-details {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:449px){
+    .profile-details input,select{
+        width: 55%;
+    }
+    .profile-container {
+        width: 95%;
+        padding: 10px;
+    }
+    .profile-details {
+        width: 100%;
+    }
+    .profile-details div{
+        width: 100%;
+        gap: 30px;
+    }
+    .profile-actions button{
+        padding: 5px;
+    }
+    
+}

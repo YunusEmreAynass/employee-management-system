@@ -1,0 +1,128 @@
+.info-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, black, #2db9d9);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid white;
+    justify-content: center;
+    height: auto;
+
+}
+
+.infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    align-items: flex-end
+}
+
+.info label {
+    font-weight: bold;
+    width: 20%;
+
+}
+
+.info input , .info-select {
+    width: 80%;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    margin-bottom: 5px;
+    color: white;
+    padding-bottom: 0;
+
+}
+
+.update-button,.create-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(15, 119, 133);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+.update-button:hover,.create-button:hover {
+    cursor: pointer;
+    background-color: #1991d6;
+    transition: 0.8s;
+}
+.info-select{
+    padding-bottom: 5px;
+}
+.info-select option{
+    background-color:#046e86 ;
+
+}
+
+@media screen and (max-width:1303px) and (max-width: 922px) {
+    .info-container {
+        width: 60%;
+    }
+
+    .info {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 922px) and (min-width: 651px) {
+    .info-container {
+        width: 70%;
+    }
+
+    .info {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 441px) {
+    .info-container {
+        width: 90%;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .info-container {
+        width: 98%;
+        padding: 10px;
+    }
+
+    .info {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .info input {
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .info-container h1 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,466 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About Us",
+        "contact": "Contact",
+        "departments": "Departments",
+        "adminDashboard": "Admin Dashboard",
+        "managerDashboard": "Manager Dashboard",
+        "types": "Types",
+        "type":
+        {
+            "companyTypes": "Company Types",
+            "departmentTypes": "Department Types"
+        },
+        "department": "Department",
+        "company": "Company",
+        "blog": "Blog",
+        "signOut": "Sign Out",
+        "signIn": "Sign In",
+        "firstLang": "en",
+        "secondLang": "tr",
+        "Executive Board": "Executive Board",
+        "Software Development": "Software Development",
+        "Human Resources": "Human Resources",
+        "Finance": "Finance",
+        "Management": "Management",
+        "Sales & Marketing": "Sales & Marketing",
+        "Logistics": "Logistics",
+        "IT Support": "IT Support",
+        "Senior Partners": "Senior Partners",
+        "Financial Consulting": "Financial Consulting",
+        "IT Strategy": "IT Strategy",
+        "Production": "Production",
+        "R&D": "R&D",
+        "Quality Assurance": "Quality Assurance",
+        "Investment Banking": "Investment Banking",
+        "Internal Audit": "Internal Audit",
+        "Legal Department": "Legal Department",
+        "Mobile Development": "Mobile Development",
+        "Web Development": "Web Development",
+        "Data Science": "Data Science",
+        "Yazılım Geliştirme": "Software Development"
+    },
+    "forms": {
+        "signIn": {
+            "title": "SIGN IN",
+            "email": "E-mail",
+            "password": "Password",
+            "rememberMe": "Remember me",
+            "button": "Sign In",
+            "forgotPassword": "Forgot Password?",
+            "activateAccount": "Activate Account",
+            "message": {
+                "error": "Invalid email or password. Please try again.",
+                "success": "Sign in successful."
+            }
+        },
+        "activateAccount": {
+            "title": "ACTIVATE ACCOUNT",
+            "email": "E-mail",
+            "password": "Password",
+            "buttonMail": "Send Activation Mail",
+            "buttonPassword": "Activate Account",
+            "back": "Back to Sign In"
+        },
+        "resetPassword": {
+            "title": "RESET PASSWORD",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm Password",
+            "button": "Reset Password",
+            "back": "Back to Sign In"
+        },
+        "forgotPassword": {
+            "title": "FORGOT PASSWORD",
+            "email": "E-mail",
+            "button": "Send Reset Mail",
+            "back": "Back to Sign In"
+        }
+    },
+    "dashboard": {
+        "title": "Employees",
+        "searchPlaceholder": "Search users...",
+        "no": "No",
+        "name": "Name",
+        "surname": "Surname",
+        "email": "E-mail",
+        "department": "Department",
+        "role": "Role",
+        "company": "Company",
+        "activation": "Activation",
+        "actions": "Actions",
+        "departments": {
+            "Executive Board": "Executive Board",
+            "Software Development": "Software Development",
+            "Human Resources": "Human Resources",
+            "Finance": "Finance",
+            "Management": "Management",
+            "Sales & Marketing": "Sales & Marketing",
+            "Logistics": "Logistics",
+            "IT Support": "IT Support",
+            "Senior Partners": "Senior Partners",
+            "Financial Consulting": "Financial Consulting",
+            "IT Strategy": "IT Strategy",
+            "Production": "Production",
+            "R&D": "R&D",
+            "Quality Assurance": "Quality Assurance",
+            "Investment Banking": "Investment Banking",
+            "Internal Audit": "Internal Audit",
+            "Legal Department": "Legal Department",
+            "Mobile Development": "Mobile Development",
+            "Web Development": "Web Development",
+            "Data Science": "Data Science",
+            "Yazılım Geliştirme": "Software Development"
+        },
+        "roles": {
+            "ADMIN": "Admin",
+            "MANAGER": "Manager",
+            "USER": "User"
+        },
+        "activations": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "show": {
+            "first": "Showing: ",
+            "second": "of",
+            "third": "results"
+        },
+        "filter": {
+            "department": "Department",
+            "role": "Role",
+            "company": "Company",
+            "activity": "Activity",
+            "region": "Region",
+            "city": "City",
+            "buttonReset": "Reset Filters",
+            "buttonApply": "Apply Filters",
+            "town": "Town"
+        },
+        "numData": "Number Of Data",
+        "button": "Add New User",
+        "message": {
+            "user": {
+                "deleteSuccess": "User deleted successfully.",
+                "deleteError": "An error occurred while deleting the user."
+            },
+            "company": {
+                "success": "Company deleted successfully.",
+                "error": "An error occurred while deleting the company."
+            }
+        }
+    },
+    "footer": {
+        "home": "Home",
+        "about": "About Us",
+        "contact": "Contact",
+        "privacy": "Privacy Policy",
+        "title": "Stay In Touch",
+        "reserved": "© 2023 Delta. All rights reserved."
+    },
+    "company": {
+        "title": "Company Information",
+        "titleCreate": "Create Company",
+        "name": "Name",
+        "shortName": "Short Name",
+        "address": "Address",
+        "town": "Town",
+        "region": "Region",
+        "city": "City",
+        "type": "Type",
+        "activation": "Activation",
+        "updateCompany": "Update Company",
+        "editCompany": "Edit Company",
+        "createCompany": "Create Company",
+        "message": {
+            "successUpdate": "Company updated successfully.",
+            "errorUpdate": "An error occurred while updating the company.",
+            "successCreate": "Company created successfully.",
+            "errorCreate": "An error occurred while creating the company."
+        },
+        "activations": {
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "createUser": {
+        "title": "CREATE NEW USER",
+        "name": "Name",
+        "surname": "Surname",
+        "email": "E-mail",
+        "department": "Department",
+        "role": "Role",
+        "selectDepartment": "Select Department",
+        "selectRole": "Select Role",
+        "button": "Create User",
+        "message": {
+            "success": "User created successfully.",
+            "error": "An error occurred while creating the user."
+        }
+    },
+    "department": {
+        "title": "Department Information",
+        "titleCreate": "Create Department",
+        "name": "Name",
+        "town": "Town",
+        "region": "Region",
+        "city": "City",
+        "address": "Address",
+        "updateButton": "Update Department",
+        "editButton": "Edit Department",
+        "createButton": "Create Department",
+        "company": "Company",
+        "type": "Type",
+        "message": {
+            "successUpdate": "Department updated successfully.",
+            "errorUpdate": "An error occurred while updating the department.",
+            "successCreate": "Department created successfully.",
+            "errorCreate": "An error occurred while creating the department.",
+            "successDelete": "Department deleted successfully.",
+            "errorDelete": "An error occurred while deleting the department."
+        }
+    },
+    "home": {
+        "sliders": {
+            "1": {
+                "title": "Management of your company is much easier with Delta",
+                "description": "Delta is a comprehensive platform designed to streamline your business operations."
+            },
+            "2": {
+                "title": "Change roles of your employees whose departments are changed",
+                "description": "Delta allows you to easily manage employee roles and departments, ensuring smooth transitions."
+            },
+            "3": {
+                "title": "Your company archives are now in safe",
+                "description": "Delta provides secure storage for your company archives, protecting your valuable data."
+            }
+        },
+        "cards": {
+            "1": {
+                "title": "Companies",
+                "description": "Manage your companies efficiently with Delta's company management system. Set up and maintain company details effortlessly. Organize your business structure with ease. You can create, update, and manage company information seamlessly with Delta.",
+                "slug": "companies"
+            },
+            "2": {
+                "title": "Departments",
+                "description": "Easily manage departments and their details within your organization. Delta allows you to create, update, and maintain department information efficiently. Organize your teams and streamline operations with our user-friendly interface.",
+                "slug": "departments"
+            },
+            "3": {
+                "title": "Cities",
+                "description": "Keep track of your cities' information and updates seamlessly. Delta provides a comprehensive city management system that simplifies the process of managing city accounts, roles, and permissions. Organize your workforce efficiently and ensure smooth operations with our intuitive city management features.",
+                "slug": "cities"
+            },
+            "button": "More Information"
+        }
+    },
+    "profile": {
+        "title": "Profile Information",
+        "name": "Name",
+        "surname": "Surname",
+        "email": "E-mail",
+        "department": "Department",
+        "role": "Role",
+        "buttonUpdate": "Update Profile",
+        "buttonEdit": "Edit Profile",
+        "buttonLogout": "Log Out",
+        "selectDepartment": "Select Department",
+        "selectRole": "Select Role",
+        "message": {
+            "success": "Profile updated successfully.",
+            "error": "An error occurred while updating the profile."
+        }
+
+    },
+    "updateUser": {
+        "actions": {
+            "1": "Personal Informations",
+            "2": "Work Informations",
+            "3": "Company Informations"
+        },
+        "tabs": {
+            "personal": {
+                "firstname": "First Name",
+                "surname": "Surname",
+                "username": "User Name",
+                "email": "E-mail",
+                "activation": "Activation",
+                "role": "Role"
+            },
+            "work": {
+                "department": "Department",
+                "role": "Role"
+            },
+            "company": {
+                "name": "Name",
+                "shortName": "Short Name",
+                "town": "Town",
+                "region": "Region",
+                "city": "City"
+            }
+        },
+        "button_edit": "Edit Information",
+        "button_update": "Update User",
+        "message": {
+            "success": "User updated successfully.",
+            "error": "An error occurred while updating the user."
+        }
+    },
+    "departments": {
+        "title": "Departments",
+        "headers": {
+            "no": "No",
+            "name": "Name",
+            "company": "Company",
+            "address": "Address",
+            "activation": "Activation",
+            "town": "Town",
+            "city": "City",
+            "region": "Region",
+            "actions": "Actions"
+        },
+        "searchPlaceholder": "Search Departments",
+        "button": "Add Department",
+        "types": {
+            "Executive Board": "Executive Board",
+            "Software Development": "Software Development",
+            "Human Resources": "Human Resources",
+            "Finance": "Finance",
+            "Management": "Management",
+            "Sales & Marketing": "Sales & Marketing",
+            "Logistics": "Logistics",
+            "IT Support": "IT Support",
+            "Senior Partners": "Senior Partners",
+            "Financial Consulting": "Financial Consulting",
+            "IT Strategy": "IT Strategy",
+            "Production": "Production",
+            "R&D": "R&D",
+            "Quality Assurance": "Quality Assurance",
+            "Investment Banking": "Investment Banking",
+            "Internal Audit": "Internal Audit",
+            "Legal Department": "Legal Department",
+            "Mobile Development": "Mobile Development",
+            "Web Development": "Web Development",
+            "Data Science": "Data Science",
+            "Yazılım Geliştirme": "Software Development"
+        },
+        "activations": {
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "companies": {
+        "title": "Companies",
+        "headers": {
+            "no": "No",
+            "name": "Name",
+            "shortName": "Short Name",
+            "address": "Address",
+            "activation": "Activation",
+            "town": "Town",
+            "city": "City",
+            "region": "Region",
+            "actions": "Actions"
+        },
+        "searchPlaceholder": "Search Companies",
+        "button": "Add Company",
+        "activations": {
+            "active": "Active",
+            "inactive": "Inactive"
+        }
+    },
+    "cities": {
+        "titleCity": "Cities",
+        "titleRegion": "Regions",
+        "titleTown": "Towns",
+        "headers": {
+            "no": "No",
+            "name": "Name",
+            "actions": "Actions",
+            "locations": "Locations"
+        },
+        "searchPlaceholder": "Search Cities",
+        "button": "Add City",
+        "buttonRegion": "Add Region",
+        "buttonTown": "Add Town",
+        "activations": {
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "locations": {
+            "town": "Towns",
+            "region": "Regions"
+        }
+    },
+    "createForms": {
+        "elementName": "Name",
+        "elementNamePlaceholder": "Enter the name",
+        "buttonElement": "Add",
+        "buttonUpdateElement": "Update",
+        "regionName": "Region Name",
+        "regionNamePlaceholder": "Enter region name",
+        "buttonRegion": "Add Region",
+        "townName": "Town Name",
+        "townNamePlaceholder": "Enter town name",
+        "buttonTown": "Add Town",
+        "buttonUpdateRegion": "Update Region",
+        "buttonUpdateTown": "Update Town",
+        "cityCreated": "City created successfully",
+        "regionCreated": "Region created successfully",
+        "townCreated": "Town created successfully",
+        "regionCreationFailed": "Region creation failed",
+        "townCreationFailed": "Town creation failed",
+        "cityCreationFailed": "City creation failed",
+        "regionUpdateFailed": "Region update failed",
+        "townUpdateFailed": "Town update failed",
+        "cityUpdateFailed": "City update failed",
+        "cityUpdated": "City updated successfully",
+        "regionUpdated": "Region updated successfully",
+        "townUpdated": "Town updated successfully",
+        "cityDeleted": "City deleted successfully",
+        "cityDeletionFailed": "City deletion failed",
+        "regionDeleted": "Region deleted successfully",
+        "regionDeletionFailed": "Region deletion failed",
+        "townDeleted": "Town deleted successfully",
+        "townDeletionFailed": "Town deletion failed"
+    },
+    "departmentTypes": {
+        "title": "Department Types",
+        "headers": {
+            "no": "No",
+            "name": "Name",
+            "actions": "Actions"
+        },
+        "searchPlaceholder": "Department Types",
+        "button": "Add Department Type",
+        "message": {
+            "successCreate": "Department type created successfully.",
+            "errorCreate": "Error occurred while creating department type.",
+            "successUpdate": "Department type updated successfully.",
+            "errorUpdate": "Error occurred while updating department type.",
+            "successDelete": "Department type deleted successfully.",
+            "errorDelete": "Error occurred while deleting department type."
+        }
+    },
+    "companyTypes": {
+        "title": "Company Types",
+        "headers": {
+            "no": "No",
+            "name": "Name",
+            "actions": "Actions"
+        },
+        "searchPlaceholder": "Search Company Types",
+        "button": "Add Company Type",
+        "message": {
+            "successCreate": "Company type created successfully.",
+            "errorCreate": "Error occurred while creating company type.",
+            "successUpdate": "Company type updated successfully.",
+            "errorUpdate": "Error occurred while updating company type.",
+            "successDelete": "Company type deleted successfully.",
+            "errorDelete": "Error occurred while deleting company type."
+        }
+    }
+
+
+
+}

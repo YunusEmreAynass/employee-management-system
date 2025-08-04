@@ -1,0 +1,148 @@
+.update-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    background: #0f4f7d;
+    margin-bottom: 125px;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    color: white;
+
+}
+
+.actions {
+    background: #001f35;
+
+}
+
+.actions .active {
+    background: linear-gradient(45deg, #0f4f7d, white) !important;
+    border-bottom: 3px solid red !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+.inputs div {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.inputs label {
+    width: 15%;
+    font-weight: bold;
+}
+
+.inputs .entry {
+    width: 49%;
+    color: white;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+.entry option {
+    background-color: #19508f;
+}
+
+
+.entry::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.entry {
+    caret-color: white;
+}
+
+
+form button:hover {
+    background-color: #44b1ff;
+    transition: 0.7s;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #052a46;
+    margin: 20px auto;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+
+}
+
+
+
+@media screen and (max-width:1162px) and (min-width:829px) {
+    .inputs .entry {
+        width: 61%;
+    }
+
+    .inputs label {
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (max-width:828px) and (min-width: 580px) {
+    .inputs .entry {
+        width: 60%;
+    }
+
+    .inputs label {
+        width: 20%;
+    }
+
+    .update-user {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:579px) {
+    .inputs .entry {
+        width: 60%;
+    }
+
+    .inputs label {
+        width: 30%;
+    }
+
+    .update-user {
+        width: 90%;
+    }
+
+    .actions {
+        font-size: 11px;
+    }
+}
